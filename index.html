@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title></title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8"/>
+        <title>Site Personnel de Tikome Nana ismaila</title>
+        <link rel="stylesheet" href="Site_Perso_Tikome.css"/> 
+        <script src="script.js" defer></script>
     </head>
 
     <body>
-        <h1>Un super titre</h1>
+        <nav class="navbar">
+            <div class="brand-title"><img src="T.png" align="center"/><img src="I.png" align="center"/><img src="K.png" align="center"/><img src="O.png" align="center"/><img src="M.png" align="center"/><img src="E.png" align="center"/></div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span> 
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="Site_Perso_Tikome.html">Acceuil</a></li>
+                    <li><a href="A_propos.html">A propos</a></li>
+                    <li><a href="Me_contacter.html">Me contacter</a></li>
+                </ul> 
+            </div>
+        </nav>
+
+        <main>
+            <section class="s1">
+                <aside class="a1">
+                <img src="remove.png" align="center" title="une photo de moi" class="ph1"> <br>
+                <p align="center" class="description">
+                    <em><strong>SITE PERSO TIKOME NANA ISMAILA</strong></em> <br><br>
+                    Etudiant en Licence 3 Informatique <br>
+                    à la Faculté des sciences de l'université de Ngaoundéré.<br><b><br></b>
+                    <a href="#projet" class="projet"><span class="c1">Besoin d'un site web ? Ecrivez-moi !</span></a><br>
+                </p>
+                </aside>
+            </section>
+
+            <section class="s2">
+                <p align="center">
+                    Je suis TIKOME NANA Ismaila, <br><br><br>
+                    Developpeur des applications web et mobile.<br>
+                    
+                </p>
+            </section>
+
+            <section class="s3">
+                <p align="center" id="projet">
+                    <strong>Parlons de votre site </strong><br><br><br> 
+                </p>
+
+                <form action=" " method="post" id="form">
+                        <label for="nom">nom</label><br>
+                        <input type="text" id="nom" name="nom"><br>
+                        <label for="email">email</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="message">message</label><br>
+                        <textarea name="message" cols="50" rows="05"></textarea><br><br>
+                        <input type="submit" value="ENVOYER" class="submit" name="submit">
+                </form><br>
+
+                <script src="Notifier.js"></script>
+            </section>
+
+            <footer class="s4">
+
+                <p class="fin2" align="right">    
+                    <span class="fin">
+                        <img src="T.png" align="left"/><img src="I.png" align="left"/><img src="K.png" align="left"/><img src="O.png" align="left"/><img src="M.png" align="left"/><img src="E.png" align="left"/>
+                    </span>
+
+                    <a href="https://www.facebook.com/nana.tikome"><img src="logo_facebook.png"/></a><a href="wa.me/+237654413499"><img src="logo_whatsApp.png"/></a>
+                </p>               
+            </footer>
+        </main>
     </body>
-</html>
+</html> 
